@@ -235,8 +235,8 @@ ServerName localhost
 # documents. By default, all requests are taken from this directory, but
 # symbolic links and aliases may be used to point to other locations.
 #
-DocumentRoot "/app/.heroku/php//share/apache2/htdocs"
-<Directory "/app/.heroku/php//share/apache2/htdocs">
+DocumentRoot "/app/.heroku/php//share/apache2/htdocs/web"
+<Directory "/app/.heroku/php//share/apache2/htdocs/web">
     #
     # Possible values for the Options directive are "None", "All",
     # or any combination of:
